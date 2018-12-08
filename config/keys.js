@@ -4,7 +4,8 @@ module.exports = {
         clientSecret: 'xeB5jahEsTXzOVRQo7aGF380'
     },
     mongodb: {
-        dbURI: 'mongodb://test:batman1@ds157268.mlab.com:57268/whackabug'
+        dbURI: 'mongodb://test:batman1@ds157268.mlab.com:57268/whackabug',
+        dbURItest: "mongodb://albertcoder:2AgcPFgh8vyizm9@ds157268.mlab.com:57268/whackabug"
     },
     session: {
         cookieKey: 'thenetninjaisawesomeiguess'
