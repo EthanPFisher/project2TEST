@@ -38,7 +38,9 @@ app.use(passport.session());
 //     console.log('connected to mongodb');
 // });
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://test:batman1@ds157268.mlab.com:57268/whackabug";
+//mongodb://<dbuser>:<dbpassword>@ds157268.mlab.com:57268/whackabug
+
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://albertcoder:2AgcPFgh8vyizm9@ds157268.mlab.com:57268/whackabug";
 mongoose.connect(MONGODB_URI);
 
 // set up routes
